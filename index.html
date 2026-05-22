@@ -201,8 +201,26 @@
           <p><strong> Onde Assistir:</strong> <del>Netflix</del> <ins>Max (Antiga HBO Max)</ins></p>
 
           <p> Eu prometo que vou terminar de ler "Aprendiz de Vilão" este ano <sub>(ou pelo menos tentar pela terceira vez)</sub></p>
-          <p> Qundo termineu de ler Dom Casmurro<sup>1</sup>esse mês</p>
+          <p> Quando terminei de ler Dom Casmurro<sup>1</sup>esse mês</p>
           <p><sub>1. Ainda acho que a Capitu traiu o Bentinho</sub></p>
+
+          <h3>Indique uma Obra</h3>
+          <fieldset>
+            <legend><strong>Recomende um Livro, Série ou Filme</strong></legend>
+            <form action="#" method="POST">
+
+            <label for="titulo-obra">Nome da Obra:</label>
+            <input type="text" id="titulo-obra" name="titulo-obra" placeholder="Ex: Breaking Bad, Outlander..." required>
+            
+            <label for="onde-encontrar">Onde Assitir ou ler?</label>
+            <input type="text" id="onde-encontrar" name="onde-encontrar" placeholder="Netflix, Amazom, Livraria..." required>
+
+            <label for="motivo">Por que eu deveria assistir/ler? (Sua opinião):</label>
+            <textarea id="motivo" name="motivo" rows="6" placeholder="Conte-me um pouco sobre a hostoria (sem spoilers!)..." required></textarea>
+
+            <button type="submit">Enviar Indicação</button>
+            </form>
+          </fieldset>
     </main>
 </body>
 </html>
